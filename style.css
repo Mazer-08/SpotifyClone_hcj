@@ -1,0 +1,45 @@
+/* ICONS */
+@import url('https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css');
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bamum:wght@400;500&display=swap');
+
+/* styling */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+
+    background-color: #000000;
+    height: 44px;
+    padding: 5px;
+
+    color: #ffffff;
+    font-family: 'Noto Sans Bamum', sans-serif;
+}
+nav li{
+    padding: 5px;
+    margin-top: 3px;
+}
+.brand img{
+    border-radius: 50%;
+    width: 35px;
+
+    position: relative;
+    bottom: 5px;
+}
+.brand h4{
+    font-size: 1.2rem;
+}
+.space{
+    flex: 3;
+}
+button .options{
+    display: flex;
+    justify-content: end;
+}
