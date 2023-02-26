@@ -9,7 +9,7 @@
     margin: 0px;
     padding: 0px;
 }
-
+/* navbar */
 nav ul{
     display: flex;
     justify-content: left;
@@ -34,7 +34,8 @@ nav li{
     bottom: 5px;
 }
 .brand h4{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 .space{
     flex: 3;
@@ -42,4 +43,24 @@ nav li{
 button .options{
     display: flex;
     justify-content: end;
+}
+
+/* container */
+.container{
+    min-height: 80vh;
+}
+
+
+/* Current Song */
+.currSong{
+    position: sticky;
+    height: 20vh;
+    background-color: #000000;
+    bottom: 0;   
+}
+.currSong input{
+    width: 96vw;
+    position: relative;
+    top: 50%;
+    left: 0.75%;
 }
