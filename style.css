@@ -8,7 +8,9 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Noto Sans Bamum', sans-serif;
 }
+/* ////////////////////////////////////////////////////////////////////// */
 /* navbar */
 nav ul{
     display: flex;
@@ -45,22 +47,68 @@ button .options{
     justify-content: end;
 }
 
+/* //////////////////////////////////////////////////////////////////////// */
 /* container */
+h3{
+    margin-left:4%;
+    padding-top: 3%;
+    color: #ffffff;
+}
 .container{
     min-height: 80vh;
+    background-image: linear-gradient(#30516f, #000000);
+}
+.container img{
+    display: flex;
+    position: absolute;
+    right: 5%;
+    top: 11%;
+    border-radius: 4%;
+}
+.songList{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+}
+.songList span{
+    padding: 1%;
+    background-color: #364955;
+    margin: 4%;
+    border-radius: 5%;
+
+}
+.songs{
+    display: flex;
+    position: relative;
+    margin-left: 4%;
+}
+.songs i{
+    padding-right: 5%;
 }
 
 
+
+/* //////////////////////////////////////////////////////////////////////// */
 /* Current Song */
 .currSong{
     position: sticky;
     height: 20vh;
-    background-color: #000000;
+    background-color: #1a1a1a;
     bottom: 0;   
 }
 .currSong input{
-    width: 96vw;
+    width: 60vw;
     position: relative;
-    top: 50%;
-    left: 0.75%;
+    top: 70%;
+    left: 20%;
+    cursor: pointer;
+}
+.fa-2xl{
+    display: flex;
+    position: relative;
+    left: 43.9%;
+    top: 45px;
+    padding: 3px;
+    cursor: pointer;
 }
